@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+
+#ad{
+    width: 1200px;
+    height: 400px;
+    margin: 10px auto;
+
+}
+#ad img{
+    width: 1200px;
+    height: 400px;
+}
+
+#ms{
+    width: 1200px;
+    height: 305px;
+    margin: 0 auto;
+}
+#ms .ms_top{
+    width: 1200px;
+    height: 55px;
+    background-image: url(../images/title_bg.png);
+    -webkit-background-size: 1200px 55px;
+    background-size: 1200px 55px;
+    line-height: 55px;
+}
+#ms .ms_top span{
+    color: white;
+}
+#ms .ms_top span:first-child{
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#ms .ms_body{
+    width: 1200px;
+    height: 250px;
+}
+
+#ms .ms_body ul{
+    width: 1200px;
+    height: 250px;
+    list-style: none;
+    display: flex;
+    background: white;
+}
+#ms .ms_body ul li{
+    flex: 1;
+    border-right: 1px solid #ccc;
+
+}
+#ms .ms_body ul li:last-child{
+    border-right:none;
+}
+#ms .ms_body ul a{
+    width: 100%;
+    height: 100%;
+    color: #6c6c6c;
+}
+#ms .ms_body ul a p{
+    font-size: 12px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+#ms .ms_body ul a img{
+ /*   margin-left: 50px;*/
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.yuan{
+    color: #ff4400;
+    font-size: 10px;
+}
+.price{
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+#hot_goods{
+    width: 1200px;
+    margin: 10px auto;
+}
+#hot_goods h3{
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px ;
+    color: #ff242d;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    background: white;
+
+}
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;
+}
+#hot_goods .hot_goods_body ul li{
+    width: 236px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+    margin-right: 0;
+}
+#hot_goods .hot_goods_body  img{
+    width: 220px;
+    height: 218px;
+    display: block;
+    margin: 0 auto;
+}
+
+#hot_goods .hot_goods_body p{
+    font-size: 13px;
+    padding: 10px 3px;
+    margin-bottom: 5px;
+}

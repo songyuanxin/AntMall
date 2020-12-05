@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 88px;
+}
+#header .h_center{
+    margin: 0 auto;
+    width: 1200px;
+    height: 88px;
+    /*margin:0 auto;*/
+}
+#header .h_center img{
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+}
+#header .h_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 880px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 14px;
+}
+#login_body{
+    height: 600px;
+    background-image: url("../images/login_bg.png");
+    background-position: center center;
+}
+.login_b_center{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+#login_body .login_bg{
+    width: 350px;
+    height: 351px;
+    background: rgba(355,355,355,0.9);
+    position: absolute;
+    right:10px;
+    top: 110px;
+    padding: 30px;
+}
+.password_forget a:first-child{
+    color: cadetblue;
+}
+.login_bg div{
+    height: 40px;
+    margin-top: 20px;
+}
+.login_bg .userName span{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/userName_Icon.png" );
+    float: left;
+    border: 1px solid #cccccc;
+}
+.login_bg .userName input {
+    height: 40px;
+    width: 250px;
+    float: left;
+    padding-left: 5px;
+
+}
+.login_bg .password span{
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #cccccc;
+    width: 40px;
+    background-image: url("../images/password_Icon.png");
+    float: left;
+
+}
+.login_bg .password input{
+    height: 40px;
+    width: 250px;
+    float: left;
+    padding-left: 5px;
+}
+.login_bg .hrh input{
+    background-color: #ff4400;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+}
+.login_bg .password_forget {
+    text-align: right;
+    margin-top: 40px;
+
+
+}
+.login_bg .password_forget a {
+    color: black;
+    font-size: 10px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}

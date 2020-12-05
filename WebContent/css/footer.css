@@ -1,0 +1,13 @@
+#footer{
+    text-align: center;
+    height: 300px;
+    padding-top: 30px;
+}
+#footer .copyrigth {
+    margin-top: 20px;
+}
+#footer .link a{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #666;
+}

@@ -1,0 +1,53 @@
+.yuan{
+    color: #ff4400;
+    font-size: 10px;
+}
+.price{
+    color: #ff4400;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+#hot_goods{
+    width: 1200px;
+    margin: 10px auto;
+}
+#hot_goods h3{
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px ;
+    color: #ff242d;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    background: white;
+
+}
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;
+}
+#hot_goods .hot_goods_body ul li{
+    width: 236px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+    margin-right: 0;
+}
+#hot_goods .hot_goods_body  img{
+    width: 220px;
+    height: 218px;
+    display: block;
+    margin: 0 auto;
+}
+
+#hot_goods .hot_goods_body p{
+    font-size: 13px;
+    padding: 10px 3px;
+    margin-bottom: 5px;
+}

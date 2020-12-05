@@ -1,0 +1,107 @@
+#reg_header{
+    height: 110px;
+    width: 100%;
+    box-shadow: 5px 0px 15px #ccc;
+    /*x 方向偏移量  y 方向偏移量   模糊程度   颜色*/
+}
+#reg_header .reg_h_center{
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+
+    display: flex;
+}
+#reg_header .reg_h_center .reg_h_left{
+    height: 110px;
+    flex: 1;
+
+}
+#reg_header .reg_h_center .reg_h_left img{
+    width: 160px;
+    height: 100px;
+    float: left;
+}
+#reg_header .reg_h_center .reg_h_left h4{
+    float: left;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#reg_header .reg_h_center .reg_h_right{
+    height: 110px;
+    flex: 1;
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 20px;
+
+}
+#reg_header .reg_h_center .reg_h_right a{
+    float: right;
+    font-size: 15px;
+    color: #666;
+    margin-left: 10px;
+}
+#reg_header .reg_h_center .reg_h_right span{
+    float: right;
+    font-size: 15px;
+    color: #666;
+}
+
+#reg_content {
+    width: 1200px;
+
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+}
+#reg_content  .reg_content_left{
+    flex: 2;
+    position: relative;
+}
+#reg_content  .reg_content_left form{
+    margin: 50px auto;
+    display: block;
+    width: 450px;
+}
+#reg_content  .reg_content_left form div{
+    width: 439px;
+    height: 64px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    line-height: 64px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+
+}
+#reg_content  .reg_content_left form div:last-child{
+    border:  none;
+    padding: 0;
+}
+#reg_content  .reg_content_left form img{
+    width: 108px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+#reg_content  .reg_content_left form .submit_button input{
+    width: 439px;
+    height: 44px;
+    background: #ff4400;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#reg_content  .reg_content_left form input::-webkit-input-placeholder{
+    font-size: 14px;
+
+}
+#reg_content  .reg_content_right{
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding: 50px 0 0 50px;
+}
